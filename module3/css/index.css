@@ -1,8 +1,14 @@
 body{
     text-align: center;
-    background-color: rgb(37, 32, 65);
+    background-color: #2d255e;
     color: white;
 }
+
+.header{
+    font-size: 2em;
+    padding: 2%;
+}
+
 section{
     padding: 10px;
     margin-bottom: 1%;
@@ -10,7 +16,7 @@ section{
     margin-left: 1%;
 }
 .chicken, .beef, .sushi{
-    border: 1px solid rgb(43, 139, 31);
+    border: 2px solid rgb(43, 139, 31);
     border-radius: 10px;
     line-height: 2em;
 }
@@ -20,16 +26,29 @@ section{
     font-style: italic;
     text-decoration: underline;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    background-color: #293241;
+}
 
 .navbar-brand{
     font-size: 2em;
-    color: rgb(56, 30, 30) !important;
-    text-shadow: cornsilk 2px 2px 2px;
+    color: #22e6ec !important;
+    text-shadow: #518bf8 2px 2px 2px;
 }
 .navbar-brand:hover{
-    color: cornsilk !important;
+    color: #518bf8 !important;
 }
-.header{
-    font-size: 2em;
-    padding: 2%;
+
+.navbar-toggler span{
+    border: #ff6aff;
+}
+
+.toTop{
+    text-decoration: underline;
+    color: violet;
 }
