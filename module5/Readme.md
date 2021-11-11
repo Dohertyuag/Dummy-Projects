@@ -2,4 +2,4 @@
 
 Coursera course: HTML, CSS, and Javascript for Web Developers
 
-# To see the output [CLICK HERE](https://dohertyuag.github.io/Dummy/module5/)
+# To see the output [CLICK HERE](https://dohertyuag.github.io/Dummy-Projects/module5/)
